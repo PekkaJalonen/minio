@@ -40,7 +40,7 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.2
 	github.com/json-iterator/go v1.1.12
 	github.com/juicedata/juicefs v1.0.4
-	github.com/klauspost/compress v1.14.4
+	github.com/klauspost/compress v1.16.7
 	github.com/klauspost/cpuid/v2 v2.0.11
 	github.com/klauspost/pgzip v1.2.5
 	github.com/klauspost/readahead v1.4.0
@@ -64,8 +64,8 @@ require (
 	github.com/minio/zipindex v0.2.1
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/montanaflynn/stats v0.6.6
-	github.com/nats-io/nats-server/v2 v2.7.2
-	github.com/nats-io/nats.go v1.13.1-0.20220121202836-972a071d373d
+	github.com/nats-io/nats-server/v2 v2.9.23
+	github.com/nats-io/nats.go v1.28.0
 	github.com/nats-io/stan.go v0.10.2
 	github.com/ncw/directio v1.0.5
 	github.com/nsqio/go-nsq v1.0.8
@@ -91,10 +91,10 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.2
 	go.uber.org/atomic v1.9.0
 	go.uber.org/zap v1.20.0
-	golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90
+	golang.org/x/crypto v0.12.0
 	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
-	golang.org/x/sys v0.5.0
-	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
+	golang.org/x/sys v0.11.0
+	golang.org/x/time v0.3.0
 	google.golang.org/api v0.73.0
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -235,9 +235,9 @@ require (
 	github.com/muesli/ansi v0.0.0-20211018074035-2e021307bc4b // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
 	github.com/muesli/termenv v0.11.1-0.20220204035834-5ac8409525e0 // indirect
-	github.com/nats-io/jwt/v2 v2.2.1-0.20220113022732-58e87895b296 // indirect
+	github.com/nats-io/jwt/v2 v2.5.0 // indirect
 	github.com/nats-io/nats-streaming-server v0.24.1 // indirect
-	github.com/nats-io/nkeys v0.3.0 // indirect
+	github.com/nats-io/nkeys v0.4.4 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/ncw/swift v1.0.53 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
@@ -293,12 +293,12 @@ require (
 	go.mongodb.org/mongo-driver v1.7.5 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
-	golang.org/x/tools v0.1.12 // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/term v0.11.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220310185008-1973136f34c6 // indirect
